@@ -102,6 +102,7 @@ const Admin = () => {
           />
         }
       >
+        <h1>test rje source code </h1>
         <React.Suspense fallback={<LoadingIndicatorPage />}>
           <Switch>
             <Route path="/" component={HomePage} exact />
