@@ -90,6 +90,7 @@ build
 .node_history
 package-lock.json
 **/package-lock.json
+**/yarn.lock
 !docs/package-lock.json
 *.heapsnapshot
 
