@@ -27,6 +27,7 @@
     "examples/*",
     "examples/*/*/*",
     ".github/actions/*",
+    "examples/jeder-app-ts/src/plugins/*",
     "scripts/*"
   ],
   "scripts": {
