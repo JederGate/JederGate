@@ -6,7 +6,9 @@ pipeline {
         script {
           sh 'yarn install'
         }
+
       }
     }
+
   }
 }
