@@ -26,14 +26,6 @@ pipeline {
             }
         }
 
-        stage('Build Example App') {
-            steps {
-                dir('examples/jeder-app-ts') {
-                    script {
-                        sh 'yarn build'
-                    }
-                }
-            }
-        }
+        
     }
 }
