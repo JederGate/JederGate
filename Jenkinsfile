@@ -40,11 +40,20 @@ pipeline {
       }
     }
 
-    stage('') {
+    stage('error') {
       steps {
         dir(path: 'examples/jeder-app-ts/config') {
           sh '''chmod +x add-ip.sh
 ./add-ip.sh'''
+        }
+
+      }
+    }
+
+    stage('start') {
+      steps {
+        dir(path: 'examples/jeder-app-ts/') {
+          sh 'yarn develop --watch-admin'
         }
 
       }
