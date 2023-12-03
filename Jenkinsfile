@@ -50,7 +50,7 @@ pipeline {
       }
     }
 
-    stage('start') {
+    stage('startlaunch') {
       steps {
         dir(path: 'examples/jeder-app-ts/') {
           sh 'yarn develop --watch-admin'
